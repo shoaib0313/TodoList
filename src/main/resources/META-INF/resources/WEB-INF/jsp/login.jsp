@@ -4,7 +4,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>login</h1>
+		<h1>welcome to login page login</h1>
 		<pre>${errorMessage}</pre>
 		<form method="post">
 			Name: <input type="text" name="name"> Password: <input
