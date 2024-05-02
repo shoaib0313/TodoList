@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 public class WelcomeController {
 
 	@GetMapping("/")
-	public String gotowelcomePage(ModelMap model) {
+	public String gotoWelcomePage(ModelMap model) {
 		model.put("name","Shoaib");
 		return "welcome";
 	}
